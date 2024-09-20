@@ -1,0 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: blueviolet;
+}
+div{
+    background-image: url("./bilder/mohammad-rahmani-8qEB0fTe9Vw-unsplash.jpg");
+    background-position: 0px 0px;
+    width: 600px;
+    height: 400px;
+    margin-top: 85px;
+    margin-left: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 200px;
+    border-radius: 15px;
+    padding-top: 20px;
+    box-shadow: 7px 7px 16px black;
+}
+h1{
+    font-family: "Montserrat", sans-serif;
+    color: aqua;
+    margin-left: -190px;
+    font-size: 40px;
+    
+}
+h2{
+    font-family: "Montserrat", sans-serif;
+    color: aqua;
+    margin-left: -190px;
+}
+p{
+    font-family: "Montserrat", sans-serif;
+    color: aqua;
+    margin-left: -190px;
+}
