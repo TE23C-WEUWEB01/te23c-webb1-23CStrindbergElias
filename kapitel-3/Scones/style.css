@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(./bilder/blake-carpenter-7sMvmabgXAo-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;;
+}
+div {
+    width: 600px;
+    background-color: darkgoldenrod;
+    margin: auto;
+    margin-top: 50px;
+    border: 10px solid brown;
+    border-radius: 20px;
+    padding: 50px;
+    font-family: "Playwrite DE Grund", cursive;
+    color: darkred;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+h2 {
+    margin-bottom: 20px;
+}
+img {
+    margin-bottom: 20px;
+}
+p {
+    margin-bottom: 20px;
+} 
+li {
+    margin-bottom: 5px;
+}
+ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    list-style-type: circle;
+}
