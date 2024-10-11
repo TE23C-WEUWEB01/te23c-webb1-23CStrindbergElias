@@ -1,0 +1,93 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body
+{ background-image: url("hjp.jpg");
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+   
+#huvud
+{
+    border-top: 5px solid blueviolet;
+    width: 30%;
+    border-bottom: 5px solid blueviolet;
+    margin-bottom: 40px;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+#whole
+{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+#skibidi
+{
+    border-radius: 5px;
+    border-style: solid;
+    border-color: blueviolet;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    margin-right: 700px;
+    width: 30%;
+}
+
+
+h2
+{
+    border-radius: 5px;
+    border-style: solid;
+    border-color: blueviolet;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    width: 30%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h3
+{
+
+}
+
+p
+{}    
+
+
+table
+{
+margin-top: 50px;
+}
+
+th
+{
+    border-style: solid;
+    border-color: blueviolet;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+}
+td
+{
+    border-style: solid;
+    border-color: blueviolet;
+    border-radius: 5px;
+    color: white;
+}
