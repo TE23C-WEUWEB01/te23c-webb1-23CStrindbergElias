@@ -25,26 +25,41 @@ body
     padding: 40px;
     background-color: #E7DEF4;
 }
+.kolumner
+{
+    display: flex;
+    gap: 50px;
+}
 .bild
 {
     background-color: #5a5a5a;
     color: #fff;
     padding: 20px;
-
+    margin-bottom: 30px;
+    display: flex;
+    gap: 50px;
+    border-radius: 10px;
 }
 /* Rubrikerna */
 h1
 {
     font-family: "Henny Penny", system-ui;
+    font-size: 75px;
+    margin-bottom: 20px;
 }
 h2
 {
-
+    margin-bottom: 20px;
 }
 /* Sidans innehåll */
 img
 {
-    width: ;
+    width: 100px;
+    
+    border-radius: 10px;
+    padding: 20px;
+
+
 }
 p
 {
