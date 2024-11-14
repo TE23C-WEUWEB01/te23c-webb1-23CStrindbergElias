@@ -1,0 +1,89 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-image: url(./bilder/videogames.jpg);
+    background-attachment: fixed;
+}
+
+.Sidan
+{
+    
+    background-color: #dda15e;
+    width: 700px;
+    padding-top: 20px;
+    margin: auto;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #606c38;
+    border-width: 6px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+.Aboutme
+{
+    width: 100px;
+    
+}
+
+.Spel
+{
+    background-color: #283618;
+    color: white;
+    width: 520px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #bc6c25;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+h1
+{
+    background-color: #283618 ;
+    color: white;
+    width: 520px;
+    text-align: center;
+    padding: 10px
+}
+
+h2
+{
+    text-align: center;
+    
+}
+
+h3
+{
+    
+}
+img
+{
+    width: 450px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: orange;
+}
+
+p
+{
+    padding-top: 10px;
+    text-align: center;
+}
+
+
