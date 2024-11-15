@@ -16,33 +16,45 @@ body
     background-attachment: fixed;
 }
 
-.Sidan
+.kolumner
 {
+    display: flex;
+}
+
+.sidan
+{
+    width: 900px;
+    padding-top: 20px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
     
-    background-color: #dda15e;
-    width: 700px;
+}
+
+.aboutme
+{
+    width: 300px;
     padding-top: 20px;
     margin: auto;
     border-radius: 10px;
     border-style: solid;
-    border-color: #606c38;
+    border-color: #283618;
     border-width: 6px;
     margin-top: 30px;
     margin-bottom: 30px;
     padding-bottom: 20px;
+    background-color: #dda15e;
+    padding: 10px;
+    color: #283618;
+
 }
 
-.Aboutme
-{
-    width: 100px;
-    
-}
-
-.Spel
+.spel
 {
     background-color: #283618;
     color: white;
-    width: 520px;
+    width: 300px;
     padding-bottom: 20px;
     padding-top: 20px;
     border-style: solid;
@@ -51,15 +63,42 @@ body
     text-align: center;
     margin: auto;
     margin-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+
+.elden
+{
+    background-color: #283618;
+    width: 300px;
+    padding-bottom: 160px;
+    padding-top: 20px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #bc6c25;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    color: #dda15e;
+    margin: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 h1
 {
+    margin: auto;
+    border-style: solid;
+    border-radius: 10px;
+
+    font-size: 80px;
     background-color: #283618 ;
     color: white;
     width: 520px;
     text-align: center;
     padding: 10px
+    
 }
 
 h2
@@ -74,7 +113,7 @@ h3
 }
 img
 {
-    width: 450px;
+    width: 200px;
     border-style: solid;
     border-radius: 5px;
     border-color: orange;
