@@ -12,98 +12,64 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 
 body
 {
-    background-image: url(./bilder/videogames.jpg);
-    background-attachment: fixed;
+    background-color: goldenrod;
+    padding: 80px;
 }
 
-.kolumner
-{
-    display: flex;
-}
+
 
 .sidan
 {
-    width: 900px;
-    padding-top: 20px;
-    margin: auto;
+    background-color: green;
+    width: 100%;
+    padding: 20px;
+}
+
+.box
+{
+    background-color: blue;
     margin-top: 30px;
-    margin-bottom: 30px;
-    padding-bottom: 20px;
+    display: flex;
+}
+
+.left
+{
+    width: 50%;
+    background-color: blueviolet;
+}
+
+.right
+{
+    width: 50%;
+    padding: 20px;
+}
+
+.picture
+{
+    text-align: center;
+    background-color: aqua;
+    width: 100%;
+    height: 100px;
+    background-size: cover;
+    padding-top: 10px;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 3px;
     
 }
 
-.aboutme
+.pic
 {
-    width: 300px;
-    padding-top: 20px;
-    margin: auto;
-    border-radius: 10px;
-    border-style: solid;
-    border-color: #283618;
-    border-width: 6px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding-bottom: 20px;
-    background-color: #dda15e;
-    padding: 10px;
-    color: #283618;
-
-}
-
-.spel
-{
-    background-color: #283618;
-    color: white;
-    width: 300px;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    border-style: solid;
-    border-radius: 10px;
-    border-color: #bc6c25;
-    text-align: center;
-    margin: auto;
-    margin-top: 20px;
-    padding-right: 20px;
-    padding-left: 20px;
-
-}
-
-.elden
-{
-    background-color: #283618;
-    width: 300px;
-    padding-bottom: 160px;
-    padding-top: 20px;
-    border-style: solid;
-    border-radius: 10px;
-    border-color: #bc6c25;
-    text-align: center;
-    margin: auto;
-    margin-top: 20px;
-    color: #dda15e;
-    margin: 20px;
-    padding-right: 20px;
-    padding-left: 20px;
+    width: 100px;
 }
 
 h1
 {
-    margin: auto;
-    border-style: solid;
-    border-radius: 10px;
-
-    font-size: 80px;
-    background-color: #283618 ;
-    color: white;
-    width: 520px;
-    text-align: center;
-    padding: 10px
     
 }
 
 h2
 {
-    text-align: center;
     
 }
 
@@ -113,16 +79,12 @@ h3
 }
 img
 {
-    width: 200px;
-    border-style: solid;
-    border-radius: 5px;
-    border-color: orange;
+
 }
 
 p
 {
-    padding-top: 10px;
-    text-align: center;
+
 }
 
 
