@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Layoutens utseende */
+body
+{
+    padding: 30px;
+}
+
+.kontainer
+{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 800px;
+    padding: 20px;
+    margin: auto;
+    background-color: #003049;
+}
+
+/* Menyns utseende */
+ul
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+li
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+    color: #FDF0D5;
+    background-color: #780000;
+    padding: 10px;
+    border-radius: 3px;
+    width: 130px;
+    display: inline-block;
+    margin: 5px;
+}
+
+a:hover
+{
+    background-color: #C1121F ;
+}
+
+/* Innehållet */
+
+h1
+{
+    font-family: "Poppins", sans-serif;
+    color: #FDF0D5;
+    font-size: 80px;
+}
+
+figure
+{
+    background-color: #669BBC;
+    padding: 15px;
+    color: #FDF0D5;
+}
+
+img
+{
+    width: 100%;
+}
+
+figcaption
+{
+
+}
+
+p
+{
+    background-color: #669BBC;
+    padding: 15px;
+    color: #FDF0D5;
+}
+
+.tack
+{
+    color: #FDF0D5;
+}
