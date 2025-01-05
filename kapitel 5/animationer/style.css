@@ -1,0 +1,89 @@
+.ruta
+{
+    width: 100px;
+    height: 100px;
+    background-color: forestgreen;
+    margin: auto;
+    animation: change 1s infinite;
+}
+
+@keyframes change
+{
+    0% {
+        background-color: red;
+        transform: scale(1);
+        opacity: 0;
+        
+    }
+    50%
+    {
+        background-color: darkred;
+        transform: scale(2);
+        box-shadow: 0 0 20px;
+        opacity: 1;
+        border-radius: 50%;
+    }
+    100% {
+        background-color: red;
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+.heart
+{
+    font-size: 100px;
+    text-align: center;
+    animation: beating 1s infinite;
+}
+
+@keyframes beating
+{
+    0% {
+        transform: scale(1) translateX(0) translateY(0);
+    }
+    25% {
+        transform: scale(1) translateX(100px) translateY(100px);
+    }
+    50% {
+        transform: scale(2) translateX(0) translateY(0);
+    }
+    75% {
+        transform: scale(1) translateX(-100px) translateY(100px);
+    }
+    100% {
+        transform: scale(1) translateX(0) translateY(0);
+    }
+}
+
+.smiley-1, .smiley-2, .smiley-3
+{
+    font-size: 100px;
+    text-align: center;
+}
+.smiley-1
+{
+    animation: falling 10s infinite;
+    animation-delay: 1s;
+}
+.smiley-2
+{
+    animation: falling 10s infinite;
+    animation-delay: 2s;
+}
+.smiley-3
+{
+    animation: falling 10s infinite;
+    animation-delay: 3s;
+}
+
+@keyframes falling
+{
+    0%{
+        transform: translate(0);
+    }
+    100%{
+        transform: translateY(300px);
+    }
+}
+
