@@ -1,0 +1,98 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body 
+{
+
+}
+
+.kontainer 
+{
+    text-align: center;
+    background-image: url(./bilder/background\ image.jpg);
+}
+
+.meny 
+{
+    padding-bottom: 20px;
+}
+.meny a 
+{
+    margin: 10px;
+    color: white;
+}
+.meny img
+{
+
+}
+
+
+.sida 
+{
+    text-align: center;
+    background-color: white;
+    margin-right: 30px;
+    margin-left: 30px;
+    
+}
+.sida h1
+{
+    
+}
+
+.sida h1 p 
+{
+    
+}
+
+
+
+
+
+
+
+
+
+
+.rutor 
+{
+    display: flex;
+    padding: 20px;
+    margin-left: 60px;
+}
+
+.rutor img
+{
+    display: flex;
+    width: 250px;
+    margin: 15px;
+    
+}
+
+.produkt 
+{
+
+}
+
+
