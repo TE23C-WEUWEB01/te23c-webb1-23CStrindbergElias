@@ -36,6 +36,9 @@ body
 .meny 
 {
     padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .meny a 
 {
@@ -44,7 +47,7 @@ body
 }
 .meny img
 {
-
+    width: 250px;
 }
 
 
@@ -58,15 +61,20 @@ body
 }
 .sida h1
 {
-    
+    text-align: center;
+    font-size: 50px;
 }
 
-.sida h1 p 
+.sida p 
 {
-    
+    width: 600px;
+    margin: auto;
 }
 
+.sida p .produkt
+{
 
+}
 
 
 
@@ -79,15 +87,17 @@ body
 {
     display: flex;
     padding: 20px;
-    margin-left: 60px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
 }
 
 .rutor img
 {
-    display: flex;
     width: 250px;
     margin: 15px;
-    
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
 }
 
 .produkt 
