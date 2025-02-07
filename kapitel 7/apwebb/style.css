@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap');
+
+
 /* Enkel CSS-reset */
 html {
     box-sizing: border-box;
@@ -17,7 +20,6 @@ img {
 
 .kontainer
 {
-    background-color: aqua;
     width: 1000px;
     margin: auto;
     display: grid;
@@ -27,29 +29,76 @@ img {
     "innehall sidebar"
     "sidfot sidfot"
     ;
+    gap: 20px;
+}
+
+body 
+{
+    background-image: url(./bilder/karl-anderson-7zg5bnhm2X0-unsplash.jpg);
 }
 
 header 
 {
     grid-area: sidhuvud;
-    background-color: blueviolet;
+    
 }
 
 main
 {
     grid-area: innehall;
-    background-color: cornflowerblue;
+    background-color: #FFF;
+    border-radius: 20px;
+    padding: 50px;
 }
 
 aside
 {
     grid-area: sidebar;
-    background-color: darkblue;
+    background-color: #FFF;
+    border-radius: 20px;
+    padding: 20px;
 }
 
 footer
 {
     grid-area: sidfot;
-    background-color: yellow;
+    background-color: rgba(128, 128, 128, 0.817);
+    border-radius: 20px;
+    padding: 20px;
+    
+    
+}
+
+
+header h1
+{
+    font-family: "Freckle Face", serif;
+    font-size: 80px;
+    color: #FFF;
+}
+
+header h2
+{
+    font-family: "Freckle Face", serif;
+    font-size: 30px;
+    color: #FFF;
+
+}
+
+header nav 
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgb(2,0,36);
+background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(140,227,115,1) 23%, rgba(77,244,65,1) 63%, rgba(0,187,43,1) 100%);
+}
+
+header nav a
+{
+
+}
+
+header nav a:hover
+{
+
 }
 
